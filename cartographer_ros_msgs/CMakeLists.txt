@@ -43,7 +43,13 @@ set(msg_files
   "msg/SubmapTexture.msg"
   "msg/TrajectoryOptions.msg"
   "msg/TrajectoryStates.msg"
+
+  "msg/metrics/HistogramBucket.msg"
+  "msg/metrics/MetricFamily.msg"
+  "msg/metrics/MetricLabel.msg"
+  "msg/metrics/Metric.msg"
 )
+
 set(srv_files
   "srv/FinishTrajectory.srv"
   "srv/GetTrajectoryStates.srv"
